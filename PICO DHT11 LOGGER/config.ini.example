@@ -1,0 +1,13 @@
+[WIFI]
+SSID = your_wifi_ssid
+PASSWORD = your_wifi_password
+
+[FTP]
+HOST = ftp.example.com
+USER = your_ftp_username
+PASS = your_ftp_password
+# Optional: specify a remote directory for the log file.
+# Defaults to root if not provided or empty.
+# Ensure the directory exists on the server.
+# Example: REMOTEPATH = /pico_logs/
+REMOTEPATH =
